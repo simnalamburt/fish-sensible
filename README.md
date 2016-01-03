@@ -1,35 +1,32 @@
-<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
+<img src="https://simnalamburt.github.io/pkg-cgitc/logo.svg"
+  align="left" width="160px" height="160px"/>
 
-#### sensible
-> A plugin for [Oh My Fish][omf-link].
-
-[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
-[![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](http://fishshell.com)
-[![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
-
-<br/>
-
-## Install
+sensible
+========
+Agreeable dafault aliases for fish<br>
+[![MIT License]](/LICENSE)
 
 ```fish
-$ omf install sensible
+omf install https://github.com/simnalamburt/pkg-sensible
+```
+```
+l      = ls -lah
+md     = mkdir -p
+rd     = rmdir
+mv     = mv -i
+cp     = cp -i
+
+...    = cd ../..
+....   = cd ../../..
+.....  = cd ../../../..
+...... = cd ../../../../..
+
 ```
 
-
-## Usage
-
-```fish
-$ sensible
-```
-
-# License
-
-[MIT][mit] © [{{USER}}][author] et [al][contributors]
+[MIT] © [simnalamburt] et [al]
 
 
-[mit]:            http://opensource.org/licenses/MIT
-[author]:         http://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/pkg-sensible/graphs/contributors
-[omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
-
-[license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
+[MIT License]:    https://img.shields.io/badge/license-MIT-007EC7.svg
+[Mit]:            http://opensource.org/licenses/MIT
+[simnalamburt]:   http://github.com/simnalamburt
+[al]:             https://github.com/simnalamburt/pkg-sensible/graphs/contributors
