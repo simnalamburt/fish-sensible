@@ -15,3 +15,8 @@ alias cp='cp -i'
 if hash fasd 2> /dev/null
   alias v='fasd -t -e vim -b viminfo'
 end
+
+# No more greetings
+if set --query fish_greeting
+  set --erase fish_greeting
+end
