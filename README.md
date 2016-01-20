@@ -21,6 +21,7 @@ cp     = cp -i
 .....  = cd ../../../..
 ...... = cd ../../../../..
 
+v      = fasd -t -e vim -b viminfo
 ```
 
 [MIT] © [simnalamburt] et [al]
