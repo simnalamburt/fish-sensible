@@ -1,4 +1,4 @@
-<img src="https://simnalamburt.github.io/pkg-cgitc/logo.svg"
+<img src="https://simnalamburt.github.io/cgitc/logo.svg"
   align="left" width="160px" height="160px"/>
 
 sensible
@@ -7,7 +7,7 @@ Agreeable dafault aliases for fish<br>
 [![MIT License]](/LICENSE)
 
 ```fish
-omf install https://github.com/simnalamburt/pkg-sensible
+omf install https://github.com/simnalamburt/fish-sensible
 ```
 ```
 l      = ls -lah
@@ -29,4 +29,4 @@ cp     = cp -i
 [MIT License]:    https://img.shields.io/badge/license-MIT-007EC7.svg
 [Mit]:            http://opensource.org/licenses/MIT
 [simnalamburt]:   http://github.com/simnalamburt
-[al]:             https://github.com/simnalamburt/pkg-sensible/graphs/contributors
+[al]:             https://github.com/simnalamburt/fish-sensible/graphs/contributors
