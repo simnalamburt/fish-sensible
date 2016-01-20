@@ -21,6 +21,7 @@ cp     = cp -i
 .....  = cd ../../../..
 ...... = cd ../../../../..
 
+# When fasd is installed
 v      = fasd -t -e vim -b viminfo
 ```
 
