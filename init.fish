@@ -12,7 +12,7 @@ alias mv='mv -i'
 alias cp='cp -i'
 
 # fasd
-if type fasd > /dev/null
+if type -q fasd
   alias v='fasd -t -e vim -b viminfo'
 end
 
