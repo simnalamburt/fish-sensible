@@ -24,5 +24,5 @@ end
 
 # No more greetings
 if set --query fish_greeting
-  set --erase fish_greeting
+  set fish_greeting
 end
