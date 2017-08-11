@@ -21,8 +21,3 @@ end
 if type -q fasd
   alias v='fasd -t -e vim -b viminfo'
 end
-
-# No more greetings
-if set --query fish_greeting
-  set fish_greeting
-end
