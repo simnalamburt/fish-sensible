@@ -1,6 +1,3 @@
-<img src="https://simnalamburt.github.io/cgitc/logo.svg"
-  align="left" width="160px" height="160px"/>
-
 sensible
 ========
 Agreeable dafault aliases for fish<br>
